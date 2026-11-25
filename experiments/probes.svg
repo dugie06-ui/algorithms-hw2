@@ -1,0 +1,71 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='470' viewBox='0 0 640 470'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='58.0' y='20.0' font-size='15' font-weight='600' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>개별 체이닝: 적재율에 따른 평균 비교 노드 수 (M = 4093)</text>
+<line x1='58.0' y1='354.0' x2='628.0' y2='354.0' stroke='#e5e7eb'/>
+<text x='52.0' y='358.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0</text>
+<line x1='58.0' y1='282.9' x2='628.0' y2='282.9' stroke='#e5e7eb'/>
+<text x='52.0' y='286.9' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>1</text>
+<line x1='58.0' y1='211.8' x2='628.0' y2='211.8' stroke='#e5e7eb'/>
+<text x='52.0' y='215.8' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>2</text>
+<line x1='58.0' y1='140.7' x2='628.0' y2='140.7' stroke='#e5e7eb'/>
+<text x='52.0' y='144.7' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>3</text>
+<line x1='58.0' y1='69.6' x2='628.0' y2='69.6' stroke='#e5e7eb'/>
+<text x='52.0' y='73.6' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>4</text>
+<line x1='58.0' y1='354.0' x2='58.0' y2='358.0' stroke='#9ca3af'/>
+<text x='58.0' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0</text>
+<line x1='125.9' y1='354.0' x2='125.9' y2='358.0' stroke='#9ca3af'/>
+<text x='125.9' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.5</text>
+<line x1='193.7' y1='354.0' x2='193.7' y2='358.0' stroke='#9ca3af'/>
+<text x='193.7' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>1</text>
+<line x1='261.6' y1='354.0' x2='261.6' y2='358.0' stroke='#9ca3af'/>
+<text x='261.6' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>1.5</text>
+<line x1='329.4' y1='354.0' x2='329.4' y2='358.0' stroke='#9ca3af'/>
+<text x='329.4' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>2</text>
+<line x1='397.3' y1='354.0' x2='397.3' y2='358.0' stroke='#9ca3af'/>
+<text x='397.3' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>2.5</text>
+<line x1='465.1' y1='354.0' x2='465.1' y2='358.0' stroke='#9ca3af'/>
+<text x='465.1' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>3</text>
+<line x1='533.0' y1='354.0' x2='533.0' y2='358.0' stroke='#9ca3af'/>
+<text x='533.0' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>3.5</text>
+<line x1='600.9' y1='354.0' x2='600.9' y2='358.0' stroke='#9ca3af'/>
+<text x='600.9' y='371.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>4</text>
+<line x1='58.0' y1='354.0' x2='628.0' y2='354.0' stroke='#6b7280'/>
+<line x1='58.0' y1='34.0' x2='58.0' y2='354.0' stroke='#6b7280'/>
+<text x='343.0' y='390.0' font-size='12' fill='#374151' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>적재율 α = 키 수 / 칸 수</text>
+<text x='16.0' y='194.0' font-size='12' fill='#374151' text-anchor='middle' transform='rotate(-90 16.0 194.0)' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>평균 비교 노드 수</text>
+<clipPath id='clip0_0'><rect x='58.0' y='32.0' width='570.0' height='324.0'/></clipPath>
+<polyline points='91.9,274.1 125.8,265.5 159.8,256.5 193.7,247.5 261.6,229.8 329.4,212.4 397.3,194.3 465.1,176.6 533.0,159.1 600.9,141.4' fill='none' stroke='#2563eb' stroke-width='2' clip-path='url(#clip0_0)'/>
+<circle cx='91.9' cy='274.1' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='125.8' cy='265.5' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='159.8' cy='256.5' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='193.7' cy='247.5' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='261.6' cy='229.8' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='329.4' cy='212.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='397.3' cy='194.3' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='465.1' cy='176.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='533.0' cy='159.1' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='600.9' cy='141.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<polyline points='91.9,274.0 125.8,265.1 159.8,256.2 193.7,247.3 261.6,229.6 329.4,211.8 397.3,194.0 465.1,176.2 533.0,158.4 600.9,140.7' fill='none' stroke='#2563eb' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip0_0)'/>
+<polyline points='91.9,336.6 125.8,319.0 159.8,301.5 193.7,283.5 261.6,248.4 329.4,212.7 397.3,177.1 465.1,140.8 533.0,105.2 600.9,70.1' fill='none' stroke='#ea580c' stroke-width='2' clip-path='url(#clip0_0)'/>
+<circle cx='91.9' cy='336.6' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='125.8' cy='319.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='159.8' cy='301.5' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='193.7' cy='283.5' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='261.6' cy='248.4' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='329.4' cy='212.7' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='397.3' cy='177.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='465.1' cy='140.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='533.0' cy='105.2' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='600.9' cy='70.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<polyline points='91.9,336.2 125.8,318.5 159.8,300.7 193.7,282.9 261.6,247.3 329.4,211.8 397.3,176.2 465.1,140.7 533.0,105.1 600.9,69.6' fill='none' stroke='#ea580c' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip0_0)'/>
+<line x1='80.0' y1='420.0' x2='108.0' y2='420.0' stroke='#2563eb' stroke-width='2'/>
+<circle cx='94.0' cy='420.0' r='3.2' fill='#2563eb'/>
+<text x='116.0' y='424.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>성공 탐색 (실측)</text>
+<line x1='340.0' y1='420.0' x2='368.0' y2='420.0' stroke='#2563eb' stroke-width='2' stroke-dasharray='6 4'/>
+<text x='376.0' y='424.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>성공 탐색 이론 1 + α/2</text>
+<line x1='80.0' y1='440.0' x2='108.0' y2='440.0' stroke='#ea580c' stroke-width='2'/>
+<circle cx='94.0' cy='440.0' r='3.2' fill='#ea580c'/>
+<text x='116.0' y='444.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>실패 탐색 (실측)</text>
+<line x1='340.0' y1='440.0' x2='368.0' y2='440.0' stroke='#ea580c' stroke-width='2' stroke-dasharray='6 4'/>
+<text x='376.0' y='444.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>실패 탐색 이론 α</text>
+</svg>
