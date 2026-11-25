@@ -2,7 +2,8 @@
 # 컨테이너 안에서 실행한다 (Codespaces 터미널, 또는 docker compose exec lab bash).
 #
 #   make test        유닛 테스트 (tests/test_*.py)
-#   make serve       단축 URL 웹 서버 (포트 8000)
+#   make serve       단축 URL 웹 서버 (포트 8000, 개별 체이닝)
+#   make serve TABLE=probe   같은 서버를 선형 탐지 테이블로
 #   make experiment  적재율에 따른 탐지 횟수 실험 (6단계, 체이닝)
 #   make compare     체이닝과 선형 탐지 비교 실험 (과제)
 #   make clean       캐시 정리
@@ -10,6 +11,7 @@
 # 외부 라이브러리를 쓰지 않는다. Python 표준 모듈만으로 돈다.
 
 PORT ?= 8000
+TABLE ?= chain
 
 .PHONY: all test serve experiment compare clean
 
@@ -19,7 +21,7 @@ test:
 	@python3 -m unittest discover -s tests -v
 
 serve:
-	@python3 src/server.py --port $(PORT)
+	@python3 src/server.py --port $(PORT) --table $(TABLE)
 
 experiment:
 	@python3 experiments/probe_experiment.py

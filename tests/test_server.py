@@ -132,5 +132,29 @@ class ServerTests(unittest.TestCase):
         self.assertIn("길이", text)
 
 
+
+class ProbingServerTests(ServerTests):
+    """같은 서버 테스트를 선형 탐지 테이블로 다시 돌린다 (과제 #8)."""
+
+    def make_shortener(self):
+        return Shortener(table="probe")
+
+    def test_table_page_shows_chain_and_horner_steps(self):
+        self.skipTest("선형 탐지에는 체인이 없다. 아래 test_table_page_shows_probed_slots_and_horner_steps가 대신한다")
+
+    def test_table_page_shows_probed_slots_and_horner_steps(self):
+        self.shorten("https://a.com")
+        self.shorten("https://b.com")
+        res, text = self.request("GET", "/table", headers=[("X-Forwarded-Host", "abc-8000.app.github.dev"),
+                                                           ("X-Forwarded-Proto", "https")])
+        self.assertEqual(res.status, 200)
+        self.assertIn("선형 탐지", text)
+        self.assertIn("비어 있음", text)
+        self.assertIn("처음 칸 h", text)
+        self.assertIn("들여다본 칸", text)
+        self.assertIn("https://abc-8000.app.github.dev/1", text)
+        self.assertIn("mod 11", text)
+        self.assertNotIn("NULL", text)
+
 if __name__ == "__main__":
     unittest.main()
