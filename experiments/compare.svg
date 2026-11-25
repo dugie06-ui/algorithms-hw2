@@ -1,0 +1,164 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='480' viewBox='0 0 960 480'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='58.0' y='20.0' font-size='15' font-weight='600' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>성공 탐색의 평균 비용</text>
+<line x1='58.0' y1='334.0' x2='468.0' y2='334.0' stroke='#e5e7eb'/>
+<text x='52.0' y='338.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0</text>
+<line x1='58.0' y1='284.0' x2='468.0' y2='284.0' stroke='#e5e7eb'/>
+<text x='52.0' y='288.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>1</text>
+<line x1='58.0' y1='234.0' x2='468.0' y2='234.0' stroke='#e5e7eb'/>
+<text x='52.0' y='238.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>2</text>
+<line x1='58.0' y1='184.0' x2='468.0' y2='184.0' stroke='#e5e7eb'/>
+<text x='52.0' y='188.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>3</text>
+<line x1='58.0' y1='134.0' x2='468.0' y2='134.0' stroke='#e5e7eb'/>
+<text x='52.0' y='138.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>4</text>
+<line x1='58.0' y1='84.0' x2='468.0' y2='84.0' stroke='#e5e7eb'/>
+<text x='52.0' y='88.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>5</text>
+<line x1='58.0' y1='34.0' x2='468.0' y2='34.0' stroke='#e5e7eb'/>
+<text x='52.0' y='38.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>6</text>
+<line x1='80.8' y1='334.0' x2='80.8' y2='338.0' stroke='#9ca3af'/>
+<text x='80.8' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.1</text>
+<line x1='126.3' y1='334.0' x2='126.3' y2='338.0' stroke='#9ca3af'/>
+<text x='126.3' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.2</text>
+<line x1='171.9' y1='334.0' x2='171.9' y2='338.0' stroke='#9ca3af'/>
+<text x='171.9' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.3</text>
+<line x1='217.4' y1='334.0' x2='217.4' y2='338.0' stroke='#9ca3af'/>
+<text x='217.4' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.4</text>
+<line x1='263.0' y1='334.0' x2='263.0' y2='338.0' stroke='#9ca3af'/>
+<text x='263.0' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.5</text>
+<line x1='308.6' y1='334.0' x2='308.6' y2='338.0' stroke='#9ca3af'/>
+<text x='308.6' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.6</text>
+<line x1='354.1' y1='334.0' x2='354.1' y2='338.0' stroke='#9ca3af'/>
+<text x='354.1' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.7</text>
+<line x1='399.7' y1='334.0' x2='399.7' y2='338.0' stroke='#9ca3af'/>
+<text x='399.7' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.8</text>
+<line x1='445.2' y1='334.0' x2='445.2' y2='338.0' stroke='#9ca3af'/>
+<text x='445.2' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.9</text>
+<line x1='58.0' y1='334.0' x2='468.0' y2='334.0' stroke='#6b7280'/>
+<line x1='58.0' y1='34.0' x2='58.0' y2='334.0' stroke='#6b7280'/>
+<text x='263.0' y='370.0' font-size='12' fill='#374151' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>적재율 α</text>
+<text x='16.0' y='184.0' font-size='12' fill='#374151' text-anchor='middle' transform='rotate(-90 16.0 184.0)' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>평균 비용</text>
+<clipPath id='clip0_0'><rect x='58.0' y='32.0' width='410.0' height='304.0'/></clipPath>
+<polyline points='80.7,281.2 103.6,279.8 126.4,278.8 149.1,277.6 171.9,276.3 194.7,274.9 217.4,273.6 240.2,272.4 262.9,271.2 285.8,269.9 308.6,268.6 331.3,267.4 354.1,266.1 376.9,264.8 399.6,263.5 422.4,262.2 445.3,260.9' fill='none' stroke='#2563eb' stroke-width='2' clip-path='url(#clip0_0)'/>
+<circle cx='80.7' cy='281.2' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='103.6' cy='279.8' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='126.4' cy='278.8' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='149.1' cy='277.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='171.9' cy='276.3' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='194.7' cy='274.9' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='217.4' cy='273.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='240.2' cy='272.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='262.9' cy='271.2' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='285.8' cy='269.9' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='308.6' cy='268.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='331.3' cy='267.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='354.1' cy='266.1' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='376.9' cy='264.8' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='399.6' cy='263.5' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='422.4' cy='262.2' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='445.3' cy='260.9' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<polyline points='58.0,282.8 62.6,282.5 67.1,282.2 71.7,282.0 76.2,281.8 80.8,281.5 85.3,281.2 89.9,281.0 94.4,280.8 99.0,280.5 103.6,280.2 108.1,280.0 112.7,279.8 117.2,279.5 121.8,279.2 126.3,279.0 130.9,278.8 135.4,278.5 140.0,278.2 144.6,278.0 149.1,277.8 153.7,277.5 158.2,277.2 162.8,277.0 167.3,276.8 171.9,276.5 176.4,276.2 181.0,276.0 185.6,275.8 190.1,275.5 194.7,275.2 199.2,275.0 203.8,274.8 208.3,274.5 212.9,274.2 217.4,274.0 222.0,273.8 226.6,273.5 231.1,273.2 235.7,273.0 240.2,272.8 244.8,272.5 249.3,272.2 253.9,272.0 258.4,271.8 263.0,271.5 267.6,271.2 272.1,271.0 276.7,270.8 281.2,270.5 285.8,270.2 290.3,270.0 294.9,269.8 299.4,269.5 304.0,269.2 308.6,269.0 313.1,268.8 317.7,268.5 322.2,268.2 326.8,268.0 331.3,267.8 335.9,267.5 340.4,267.2 345.0,267.0 349.6,266.8 354.1,266.5 358.7,266.2 363.2,266.0 367.8,265.8 372.3,265.5 376.9,265.2 381.4,265.0 386.0,264.8 390.6,264.5 395.1,264.2 399.7,264.0 404.2,263.8 408.8,263.5 413.3,263.2 417.9,263.0 422.4,262.8 427.0,262.5 431.6,262.2 436.1,262.0 440.7,261.8 445.2,261.5' fill='none' stroke='#2563eb' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip0_0)'/>
+<polyline points='80.7,280.8 103.6,279.0 126.4,277.5 149.1,275.4 171.9,273.0 194.7,269.8 217.4,266.8 240.2,263.1 262.9,258.7 285.8,253.1 308.6,246.0 331.3,237.2 354.1,225.0 376.9,207.8 399.6,183.1 422.4,141.9 445.3,57.4' fill='none' stroke='#ea580c' stroke-width='2' clip-path='url(#clip0_0)'/>
+<circle cx='80.7' cy='280.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='103.6' cy='279.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='126.4' cy='277.5' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='149.1' cy='275.4' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='171.9' cy='273.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='194.7' cy='269.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='217.4' cy='266.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='240.2' cy='263.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='262.9' cy='258.7' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='285.8' cy='253.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='308.6' cy='246.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='331.3' cy='237.2' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='354.1' cy='225.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='376.9' cy='207.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='399.6' cy='183.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='422.4' cy='141.9' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='445.3' cy='57.4' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<polyline points='58.0,282.7 62.6,282.4 67.1,282.1 71.7,281.8 76.2,281.5 80.8,281.2 85.3,280.9 89.9,280.6 94.4,280.3 99.0,279.9 103.6,279.6 108.1,279.2 112.7,278.9 117.2,278.5 121.8,278.1 126.3,277.8 130.9,277.4 135.4,276.9 140.0,276.5 144.6,276.1 149.1,275.7 153.7,275.2 158.2,274.8 162.8,274.3 167.3,273.8 171.9,273.3 176.4,272.8 181.0,272.2 185.6,271.7 190.1,271.1 194.7,270.5 199.2,269.9 203.8,269.3 208.3,268.7 212.9,268.0 217.4,267.3 222.0,266.6 226.6,265.9 231.1,265.1 235.7,264.4 240.2,263.5 244.8,262.7 249.3,261.8 253.9,260.9 258.4,260.0 263.0,259.0 267.6,258.0 272.1,256.9 276.7,255.8 281.2,254.7 285.8,253.4 290.3,252.2 294.9,250.9 299.4,249.5 304.0,248.0 308.6,246.5 313.1,244.9 317.7,243.2 322.2,241.4 326.8,239.6 331.3,237.6 335.9,235.5 340.4,233.2 345.0,230.9 349.6,228.4 354.1,225.7 358.7,222.8 363.2,219.7 367.8,216.4 372.3,212.8 376.9,209.0 381.4,204.8 386.0,200.3 390.6,195.4 395.1,190.0 399.7,184.0 404.2,177.4 408.8,170.1 413.3,161.9 417.9,152.8 422.4,142.3 427.0,130.4 431.6,116.7 436.1,100.7 440.7,81.7 445.2,59.0' fill='none' stroke='#ea580c' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip0_0)'/>
+<text x='538.0' y='20.0' font-size='15' font-weight='600' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>실패 탐색의 평균 비용</text>
+<line x1='538.0' y1='334.0' x2='948.0' y2='334.0' stroke='#e5e7eb'/>
+<text x='532.0' y='338.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0</text>
+<line x1='538.0' y1='279.0' x2='948.0' y2='279.0' stroke='#e5e7eb'/>
+<text x='532.0' y='283.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>10</text>
+<line x1='538.0' y1='224.0' x2='948.0' y2='224.0' stroke='#e5e7eb'/>
+<text x='532.0' y='228.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>20</text>
+<line x1='538.0' y1='169.0' x2='948.0' y2='169.0' stroke='#e5e7eb'/>
+<text x='532.0' y='173.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>30</text>
+<line x1='538.0' y1='114.0' x2='948.0' y2='114.0' stroke='#e5e7eb'/>
+<text x='532.0' y='118.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>40</text>
+<line x1='538.0' y1='59.0' x2='948.0' y2='59.0' stroke='#e5e7eb'/>
+<text x='532.0' y='63.0' font-size='11' fill='#4b5563' text-anchor='end' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>50</text>
+<line x1='560.8' y1='334.0' x2='560.8' y2='338.0' stroke='#9ca3af'/>
+<text x='560.8' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.1</text>
+<line x1='606.3' y1='334.0' x2='606.3' y2='338.0' stroke='#9ca3af'/>
+<text x='606.3' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.2</text>
+<line x1='651.9' y1='334.0' x2='651.9' y2='338.0' stroke='#9ca3af'/>
+<text x='651.9' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.3</text>
+<line x1='697.4' y1='334.0' x2='697.4' y2='338.0' stroke='#9ca3af'/>
+<text x='697.4' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.4</text>
+<line x1='743.0' y1='334.0' x2='743.0' y2='338.0' stroke='#9ca3af'/>
+<text x='743.0' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.5</text>
+<line x1='788.6' y1='334.0' x2='788.6' y2='338.0' stroke='#9ca3af'/>
+<text x='788.6' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.6</text>
+<line x1='834.1' y1='334.0' x2='834.1' y2='338.0' stroke='#9ca3af'/>
+<text x='834.1' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.7</text>
+<line x1='879.7' y1='334.0' x2='879.7' y2='338.0' stroke='#9ca3af'/>
+<text x='879.7' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.8</text>
+<line x1='925.2' y1='334.0' x2='925.2' y2='338.0' stroke='#9ca3af'/>
+<text x='925.2' y='351.0' font-size='11' fill='#4b5563' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>0.9</text>
+<line x1='538.0' y1='334.0' x2='948.0' y2='334.0' stroke='#6b7280'/>
+<line x1='538.0' y1='34.0' x2='538.0' y2='334.0' stroke='#6b7280'/>
+<text x='743.0' y='370.0' font-size='12' fill='#374151' text-anchor='middle' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>적재율 α</text>
+<text x='496.0' y='184.0' font-size='12' fill='#374151' text-anchor='middle' transform='rotate(-90 496.0 184.0)' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>평균 비용</text>
+<clipPath id='clip480_0'><rect x='538.0' y='32.0' width='410.0' height='304.0'/></clipPath>
+<polyline points='560.7,333.4 583.6,333.2 606.4,332.9 629.1,332.6 651.9,332.4 674.7,332.1 697.4,331.8 720.2,331.5 742.9,331.2 765.8,331.0 788.6,330.7 811.3,330.4 834.1,330.1 856.9,329.9 879.6,329.6 902.4,329.3 925.3,329.0' fill='none' stroke='#2563eb' stroke-width='2' clip-path='url(#clip480_0)'/>
+<circle cx='560.7' cy='333.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='583.6' cy='333.2' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='606.4' cy='332.9' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='629.1' cy='332.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='651.9' cy='332.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='674.7' cy='332.1' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='697.4' cy='331.8' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='720.2' cy='331.5' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='742.9' cy='331.2' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='765.8' cy='331.0' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='788.6' cy='330.7' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='811.3' cy='330.4' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='834.1' cy='330.1' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='856.9' cy='329.9' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='879.6' cy='329.6' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='902.4' cy='329.3' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<circle cx='925.3' cy='329.0' r='3.2' fill='#2563eb' stroke='white' stroke-width='1'/>
+<polyline points='538.0,333.7 542.6,333.7 547.1,333.6 551.7,333.6 556.2,333.5 560.8,333.4 565.3,333.4 569.9,333.3 574.4,333.3 579.0,333.2 583.6,333.2 588.1,333.1 592.7,333.1 597.2,333.0 601.8,333.0 606.3,332.9 610.9,332.8 615.4,332.8 620.0,332.7 624.6,332.7 629.1,332.6 633.7,332.6 638.2,332.5 642.8,332.5 647.3,332.4 651.9,332.3 656.4,332.3 661.0,332.2 665.6,332.2 670.1,332.1 674.7,332.1 679.2,332.0 683.8,332.0 688.3,331.9 692.9,331.9 697.4,331.8 702.0,331.7 706.6,331.7 711.1,331.6 715.7,331.6 720.2,331.5 724.8,331.5 729.3,331.4 733.9,331.4 738.4,331.3 743.0,331.2 747.6,331.2 752.1,331.1 756.7,331.1 761.2,331.0 765.8,331.0 770.3,330.9 774.9,330.9 779.4,330.8 784.0,330.8 788.6,330.7 793.1,330.6 797.7,330.6 802.2,330.5 806.8,330.5 811.3,330.4 815.9,330.4 820.4,330.3 825.0,330.3 829.6,330.2 834.1,330.1 838.7,330.1 843.2,330.0 847.8,330.0 852.3,329.9 856.9,329.9 861.4,329.8 866.0,329.8 870.6,329.7 875.1,329.7 879.7,329.6 884.2,329.5 888.8,329.5 893.3,329.4 897.9,329.4 902.4,329.3 907.0,329.3 911.6,329.2 916.1,329.2 920.7,329.1 925.2,329.0' fill='none' stroke='#2563eb' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip480_0)'/>
+<polyline points='560.7,327.8 583.6,327.4 606.4,326.9 629.1,326.4 651.9,325.6 674.7,324.7 697.4,323.7 720.2,322.2 742.9,320.2 765.8,317.6 788.6,314.0 811.3,309.1 834.1,301.5 856.9,289.1 879.6,265.5 902.4,210.9 925.3,64.8' fill='none' stroke='#ea580c' stroke-width='2' clip-path='url(#clip480_0)'/>
+<circle cx='560.7' cy='327.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='583.6' cy='327.4' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='606.4' cy='326.9' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='629.1' cy='326.4' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='651.9' cy='325.6' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='674.7' cy='324.7' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='697.4' cy='323.7' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='720.2' cy='322.2' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='742.9' cy='320.2' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='765.8' cy='317.6' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='788.6' cy='314.0' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='811.3' cy='309.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='834.1' cy='301.5' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='856.9' cy='289.1' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='879.6' cy='265.5' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='902.4' cy='210.9' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<circle cx='925.3' cy='64.8' r='3.2' fill='#ea580c' stroke='white' stroke-width='1'/>
+<polyline points='538.0,328.2 542.6,328.1 547.1,328.1 551.7,328.0 556.2,327.9 560.8,327.9 565.3,327.8 569.9,327.7 574.4,327.6 579.0,327.5 583.6,327.4 588.1,327.4 592.7,327.3 597.2,327.2 601.8,327.1 606.3,327.0 610.9,326.8 615.4,326.7 620.0,326.6 624.6,326.5 629.1,326.4 633.7,326.2 638.2,326.1 642.8,325.9 647.3,325.8 651.9,325.6 656.4,325.5 661.0,325.3 665.6,325.1 670.1,324.9 674.7,324.7 679.2,324.5 683.8,324.3 688.3,324.1 692.9,323.9 697.4,323.6 702.0,323.3 706.6,323.1 711.1,322.8 715.7,322.5 720.2,322.2 724.8,321.8 729.3,321.5 733.9,321.1 738.4,320.7 743.0,320.2 747.6,319.8 752.1,319.3 756.7,318.8 761.2,318.3 765.8,317.7 770.3,317.0 774.9,316.4 779.4,315.7 784.0,314.9 788.6,314.1 793.1,313.2 797.7,312.2 802.2,311.2 806.8,310.0 811.3,308.8 815.9,307.5 820.4,306.0 825.0,304.4 829.6,302.6 834.1,300.7 838.7,298.5 843.2,296.2 847.8,293.5 852.3,290.6 856.9,287.2 861.4,283.5 866.0,279.3 870.6,274.4 875.1,268.9 879.7,262.5 884.2,255.1 888.8,246.4 893.3,236.1 897.9,223.8 902.4,209.0 907.0,190.9 911.6,168.5 916.1,140.3 920.7,104.0 925.2,56.2' fill='none' stroke='#ea580c' stroke-width='2' stroke-dasharray='6 4' clip-path='url(#clip480_0)'/>
+<text x='58' y='402' font-size='12' fill='#4b5563' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>같은 키를 M = 4093칸 두 테이블에 넣음 · 시드 10개 평균 · 실선+점 = 실측, 점선 = 이론</text>
+<line x1='70.0' y1='428.0' x2='98.0' y2='428.0' stroke='#2563eb' stroke-width='2'/>
+<circle cx='84.0' cy='428.0' r='3.2' fill='#2563eb'/>
+<text x='106.0' y='432.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>개별 체이닝 실측 (비교한 노드 수)</text>
+<line x1='400.0' y1='428.0' x2='428.0' y2='428.0' stroke='#ea580c' stroke-width='2'/>
+<circle cx='414.0' cy='428.0' r='3.2' fill='#ea580c'/>
+<text x='436.0' y='432.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>선형 탐지 실측 (들여다본 칸 수)</text>
+<line x1='70.0' y1='448.0' x2='98.0' y2='448.0' stroke='#2563eb' stroke-width='2' stroke-dasharray='6 4'/>
+<text x='106.0' y='452.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>개별 체이닝 이론: 성공 1 + α/2, 실패 α</text>
+<line x1='400.0' y1='448.0' x2='428.0' y2='448.0' stroke='#ea580c' stroke-width='2' stroke-dasharray='6 4'/>
+<text x='436.0' y='452.0' font-size='12' fill='#111827' font-family='-apple-system, Segoe UI, Noto Sans KR, sans-serif'>선형 탐지 이론: 성공 (1 + 1/(1-α))/2, 실패 (1 + 1/(1-α)²)/2</text>
+</svg>

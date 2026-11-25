@@ -1,12 +1,13 @@
 """URL 단축기 웹 서버. 표준 http.server만 쓴다.
 
-    make serve                 # http://localhost:8000
-    python3 src/server.py --port 8000
+    make serve                 # http://localhost:8000, 개별 체이닝
+    make serve TABLE=probe     # 같은 서버를 선형 탐지 테이블로
+    python3 src/server.py --port 8000 --table probe
 
     GET  /          URL 입력 폼
     POST /shorten   짧은 링크 결과 화면 (잘못된 URL이면 400)
     GET  /<코드>    원래 URL로 302 리디렉션 (없으면 404)
-    GET  /table     해시 테이블 시각화: 체인과 호너 해시 계산 과정
+    GET  /table     해시 테이블 시각화: 체인(또는 선형 탐지의 칸)과 호너 해시 계산 과정
 """
 
 import argparse
@@ -132,6 +133,9 @@ class App:
                     % (esc(table_kind_name(t)), m, len(t), t.load_factor()))
         body.append("<p class='sub'>칸 번호는 호너 방식 <code>h ← (%d·h + 글자 코드) mod %d</code>, 처음 h = 0. "
                     "마지막 h가 칸 번호입니다. 노드를 누르면 계산 과정이 펼쳐집니다.</p>" % (HORNER_BASE, m))
+        if getattr(t, "kind", "chain") == "probe":
+            body.append("<p class='sub'>선형 탐지: 처음 칸 h가 차 있으면 h+1, h+2, … (mod %d)로 옮겨 가며 빈 칸에 넣습니다. "
+                        "마지막 칸 다음은 0번 칸입니다.</p>" % m)
         body.append(render_table(t, base))
         body.append(self.nav())
         return page("해시 테이블", "".join(body))
@@ -171,7 +175,29 @@ def render_chain_table(table, base):
     return "<div class='card'>%s</div>" % "".join(rows)
 
 
+def render_probe_table(table, base):
+    m = table.capacity
+    rows = []
+    for i, slot in enumerate(table.slots()):
+        if slot is None:
+            parts = ["<div class='row'><div class='idx'>[%d]</div>" % i]
+            parts.append("<span class='empty'>비어 있음</span>")
+        else:
+            key, code = slot
+            path = table.probe_path(key)
+            parts = ["<div class='row'><div class='idx'>[%d]<span class='len'>h=%d · %d칸</span></div>"
+                     % (i, path[0], len(path))]
+            extra = ("<div>처음 칸 h = <b>%d</b> · 들여다본 칸 <b>%d</b>개: %s</div>"
+                     % (path[0], len(path), " → ".join("[%d]" % j for j in path)))
+            parts.append(render_node(key, code, base, m, extra, "node probe"))
+        parts.append("</div>")
+        rows.append("".join(parts))
+    return "<div class='card'>%s</div>" % "".join(rows)
+
+
 def render_table(table, base):
+    if getattr(table, "kind", "chain") == "probe":
+        return render_probe_table(table, base)
     return render_chain_table(table, base)
 
 
@@ -260,8 +286,10 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="URL 단축기 웹 서버")
     parser.add_argument("--port", type=int, default=8000)
     parser.add_argument("--host", default="0.0.0.0")
+    parser.add_argument("--table", choices=("chain", "probe"), default="chain",
+                        help="chain: 개별 체이닝, probe: 선형 탐지")
     args = parser.parse_args(argv)
-    server, app = make_server(args.port, args.host)
+    server, app = make_server(args.port, args.host, Shortener(table=args.table))
     print("URL 단축기: http://localhost:%d  (해시 테이블: %s, 끄려면 Ctrl+C)"
           % (app.port, table_kind_name(app.shortener.table)), flush=True)
     try:

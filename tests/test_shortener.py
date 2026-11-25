@@ -123,5 +123,27 @@ class ShortenerTests(unittest.TestCase):
         self.assertEqual(s.shorten("https://a.com"), "0")
 
 
+
+class ProbingShortenerTests(ShortenerTests):
+    """같은 단축기 테스트를 선형 탐지 테이블로 다시 돌린다 (과제 #8)."""
+
+    def make(self, **kwargs):
+        return Shortener(table="probe", **kwargs)
+
+    def test_uses_probing_table(self):
+        self.assertEqual(self.make().table.kind, "probe")
+
+
+class TableChoiceTests(unittest.TestCase):
+    def test_default_is_chaining(self):
+        self.assertEqual(Shortener().table.kind, "chain")
+        self.assertEqual(Shortener(table="chain").table.kind, "chain")
+
+    def test_unknown_table_is_rejected(self):
+        for bad in ("dict", "", None, "PROBE"):
+            with self.subTest(bad=bad):
+                with self.assertRaises(ValueError):
+                    Shortener(table=bad)
+
 if __name__ == "__main__":
     unittest.main()
