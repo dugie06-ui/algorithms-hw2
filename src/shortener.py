@@ -3,10 +3,12 @@
 새 URL마다 일련번호를 하나씩 주고, 그 번호를 base62로 바꾼 것을 짧은 코드로 쓴다.
 URL의 해시값을 코드로 쓰지 않는다: 서로 다른 URL이 같은 코드를 받을 수 있기 때문이다.
 URL->코드, 코드->URL 대응은 직접 만든 해시 테이블 두 개에 저장한다.
+테이블은 개별 체이닝(table="chain", 기본)과 선형 탐지(table="probe") 중에서 고른다.
 """
 
 from base62 import encode
 from hash_table import HashTable
+from probing_table import ProbingTable
 
 MAX_URL_LENGTH = 2048
 # 서버 경로와 겹치는 코드는 주지 않는다 (/table)
@@ -37,13 +39,23 @@ def normalize_url(url):
     return url
 
 
+def table_class(name):
+    """"chain" -> 개별 체이닝 HashTable, "probe" -> 선형 탐지 ProbingTable."""
+    if name == "chain":
+        return HashTable
+    if name == "probe":
+        return ProbingTable
+    raise ValueError('table은 "chain" 또는 "probe"여야 합니다: %r' % (name,))
+
+
 class Shortener:
-    def __init__(self, start=0):
+    def __init__(self, start=0, table="chain"):
         if isinstance(start, bool) or not isinstance(start, int) or start < 0:
             raise ValueError("start는 0 이상의 정수여야 합니다: %r" % (start,))
+        make_table = table_class(table)
         self._next = start
-        self._code_of = HashTable()  # URL -> 코드
-        self._url_of = HashTable()  # 코드 -> URL
+        self._code_of = make_table()  # URL -> 코드
+        self._url_of = make_table()  # 코드 -> URL
 
     @property
     def table(self):
