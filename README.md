@@ -45,3 +45,18 @@
 체이닝은 비교한 노드 수, 선형 탐지는 들여다본 칸 수입니다. 수치는 [`experiments/compare.csv`](experiments/compare.csv).
 
 ![체이닝과 선형 탐지의 성공·실패 탐색 비용](experiments/compare.svg)
+
+## 충돌 확인 방법 (/table)
+
+서버를 새로 켠 뒤 아래 순서로 URL을 줄이고 `/table`을 열면 충돌이 보입니다 (칸 수 11 기준 호너 해시값).
+
+| URL | 해시값 (mod 11) |
+| --- | --- |
+| https://www.naver.com | 6 |
+| https://github.com | 6 |
+| https://www.yonsei.ac.kr | 4 |
+| https://ys.learnus.org | 4 |
+
+- `make serve`: 4번, 6번 칸에 길이 2인 체인이 생깁니다.
+- `make serve TABLE=probe`: ys.learnus.org는 5번, github.com은 7번 칸으로 밀려나 `h=4 · 2칸`, `h=6 · 2칸`으로 표시됩니다.
+- URL을 누르면 `(31·h + 글자 코드) mod 11` 계산 과정이 글자마다 나옵니다.
